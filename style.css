@@ -1,0 +1,118 @@
+body{
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+    font-size:calc(0.5rem + 2vw);
+}
+div{
+    border: solid 2px #D6001C;
+    border-radius: 5px;
+    margin: 5px;
+}
+.Bakgrund{
+    background-image: url(snow_winter_trees.jpg);
+    align-items: center;
+    text-align: center;
+    font-family: Mountains of Christmas, monospace;
+    padding-bottom: 60px;
+}
+.Länkar{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.Bilder{
+    border: solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.Mellan{
+    display: flex;
+    flex-direction: column;
+    font-size: calc(1.0rem + 1vw);
+}
+.webb_utveckling{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.sidfot{
+    padding: 5px;
+}
+.Mitten{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: calc(1rem + 1vw);
+}
+.Vänster{
+    display: none;
+}
+.Höger{
+    display: none;
+}
+/* Tablet layout  om bredden är mellan 641 och 1007 */
+@media screen and (min-width: 641px)and (max-width: 1180px) {
+    body{
+        margin: 5px;
+        align-items: center;
+        text-align: center;
+    }
+    .Länkar{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+    .Mellan{
+        display: flex;
+        flex-direction: row;
+    }
+    .Mitten{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 25px;
+    }
+    .Vänster{
+        display: revert;
+    }
+}
+/* Dator layout  om bredden är minst 1008px */
+@media screen and (min-width: 1181px) {
+    body{
+        margin: 5px;
+        align-items: center;
+        text-align: center;
+    }
+    .Länkar{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+    .Mellan{
+        display: flex;
+        flex-direction: row;
+    }
+    .Mitten{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 25px;
+    }
+    .Vänster{
+        display: revert;
+    }
+    .Höger{
+        display: revert;
+    }
+}
